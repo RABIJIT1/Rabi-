@@ -1,2 +1,2 @@
-# Rabi-
-A  easy to use basic module for some common 
+# Rabi
+A collection easy to use programs
