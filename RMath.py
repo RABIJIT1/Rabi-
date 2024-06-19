@@ -37,3 +37,18 @@ def sec(x):
 def cosec(x):
     x = 1/sin(x)
     return x
+def mod(x):
+    #modulus function
+    if float(x)>0:
+        return x
+    if x==0 :
+        return 0
+    else:
+        return -x
+def signum(x):
+    if float(x) > 0:
+        return 1
+    if float(x) < 0:
+        return -1
+    else:
+        return 0
