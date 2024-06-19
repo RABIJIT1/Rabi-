@@ -52,3 +52,14 @@ def signum(x):
         return -1
     else:
         return 0
+#prime checker
+def prime_check(y):
+   for i in range(2,y):
+       if y%i==0:
+           print(y,"is composite")
+           break
+       elif y%i!=0:
+           print(y,"is prime")
+           break
+       else:
+           print(y,"is neither prime nor composite")
